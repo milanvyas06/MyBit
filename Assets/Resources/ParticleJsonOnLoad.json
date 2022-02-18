@@ -1,0 +1,21 @@
+{
+	"name": "Particle Name",
+	"ParticalDetails": [
+		{
+			"ParticleCatName": "Birthday1",
+			"ParticalCatImg": "D:/AssetBundle/ExportedFrom MagicallyBit/tumb1.png",
+			"ParticalInfo": [
+				{
+					"UniqueIDNo": "101",
+					"BundlePath": "D:/AssetBundle/ExportedFrom MagicallyBit/mayur",
+					"DecryptedBundlePath": "D:/AssetBundle/ExportedFrom MagicallyBit/mayur",
+					"ImgPath": "D:/AssetBundle/ExportedFrom MagicallyBit/tumb1.png",
+					"ThemeName": "XN",
+					"prefbName": "Holi",
+					"downloadAt": "1",
+					"NewFlag": "1"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "491597327257",
+    "firebase_url": "https://feel-the-music-ab5d8.firebaseio.com",
+    "project_id": "feel-the-music-ab5d8",
+    "storage_bucket": "feel-the-music-ab5d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491597327257:android:518df80aab10b65d620108",
+        "android_client_info": {
+          "package_name": "musicallybit.photovideomaker.bitvideostatus.particlevideo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491597327257-30uv653rg9lfcua9p0mah7ritm9056pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf1Bgp2NBoa_vl_ikHlKDy0f_sOACaaA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491597327257-30uv653rg9lfcua9p0mah7ritm9056pj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

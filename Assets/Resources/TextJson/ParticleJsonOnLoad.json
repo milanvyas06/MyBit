@@ -1,0 +1,21 @@
+{
+	"name": "Particle Name",
+	"ParticalDetails": [
+		{
+			"ParticleCatName": "Birthday",
+			"ParticalCatImg": "D:/AssetBundle/ExportedFrom MagicallyBit/tumb1.png",
+			"ParticalInfo": [
+				{
+					"UniqueIDNo": "101",
+					"BundlePath": "D:/AssetBundle/ExportedFrom MagicallyBit/26 January 1rdSDf8202010dF3421AMthDfDJ",
+					"DecryptedBundlePath": "D:/AssetBundle/ExportedFrom MagicallyBit/26 January 1rdSDf8202010dF3421AMthDfDJ",
+					"ImgPath": "D:/AssetBundle/ExportedFrom MagicallyBit/tumb1.png",
+					"ThemeName": "PARTICL NAME",
+					"prefbName": "1rdSDf8202010dF3421AMthDfDJ",
+					"downloadAt": "1",
+					"NewFlag": "1"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,182 @@
+using System;
+using System.Numerics;
+using System.Runtime.InteropServices;
+using System.Text;
+
+[StructLayout(3, CharSet = CharSet.Auto)]
+public class SecureAray
+{
+    private static byte[] byArr = new byte[148]
+    {
+        6,
+        2,
+        0,
+        0,
+        0,
+        164,
+        0,
+        0,
+        82,
+        83,
+        65,
+        49,
+        0,
+        4,
+        0,
+        0,
+        17,
+        0,
+        0,
+        0,
+        219,
+        159,
+        157,
+        48,
+        5,
+        222,
+        190,
+        249,
+        188,
+        16,
+        12,
+        113,
+        248,
+        60,
+        190,
+        45,
+        164,
+        118,
+        105,
+        67,
+        153,
+        248,
+        14,
+        194,
+        254,
+        95,
+        1,
+        126,
+        118,
+        192,
+        82,
+        130,
+        91,
+        201,
+        130,
+        133,
+        161,
+        61,
+        90,
+        186,
+        111,
+        240,
+        29,
+        183,
+        80,
+        134,
+        4,
+        86,
+        35,
+        237,
+        71,
+        218,
+        235,
+        26,
+        88,
+        206,
+        203,
+        137,
+        248,
+        242,
+        79,
+        134,
+        84,
+        225,
+        110,
+        250,
+        61,
+        49,
+        33,
+        3,
+        80,
+        26,
+        18,
+        110,
+        192,
+        209,
+        42,
+        192,
+        249,
+        49,
+        86,
+        66,
+        44,
+        162,
+        20,
+        154,
+        62,
+        59,
+        25,
+        183,
+        132,
+        118,
+        107,
+        229,
+        7,
+        36,
+        223,
+        252,
+        245,
+        254,
+        94,
+        168,
+        40,
+        49,
+        26,
+        155,
+        134,
+        183,
+        114,
+        137,
+        116,
+        231,
+        247,
+        16,
+        53,
+        7,
+        231,
+        29,
+        36,
+        255,
+        122,
+        134,
+        162,
+        73,
+        120,
+        251,
+        206,
+        130
+    };
+
+    private static int sizei = 128;
+
+    private static int arrByte = byArr[16] | (byArr[17] << 8) | (byArr[18] << 16);
+
+    private static BigInteger CBBCCBCBBCCBBBCCCBCBCCBCBCBCBCBBBCCCCBCBCBCCBBB;
+
+    private static string BCCBCCBBBBCBCBCCCBBBCCBBBBCBBBCCCCCCCBCCBCCCBCC(byte[] bytes)
+    {
+        int i;
+        for (i = 1; i < bytes.Length && bytes[i] == 0; i++)
+        {
+        }
+        if (i != bytes.Length)
+        {
+            byte[] array = new byte[bytes.Length - i];
+            Buffer.BlockCopy(bytes, i, array, 0, bytes.Length - i);
+            return Encoding.UTF8.GetString(array);
+        }
+        return string.Empty;
+    }
+
+}
